@@ -1,0 +1,5 @@
+pandas
+selenium
+matplotlib
+numpy
+webdriver-manager
