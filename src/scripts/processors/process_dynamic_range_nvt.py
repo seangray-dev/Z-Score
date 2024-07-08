@@ -8,7 +8,7 @@ def calculate_z_score(indicator_name, date_today):
     raw_data_path = os.path.join(
         os.path.dirname(__file__),
         "../../../data/raw",
-        f"{indicator_name}_{date_today}.csv",
+        f"{indicator_name}_{date_today}_raw.csv",
     )
 
     # Ensure the file exists
